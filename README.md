@@ -1,30 +1,17 @@
-# Complete four-language professional SEO / e-commerce portfolio
+# Complete multilingual dual-track portfolio | 23 October 2026
 
-**This ZIP is a FULL static website, NOT an add-on.**
+**Deploy-ready static HTML.** Extract the ZIP and upload **all extracted files** to the root of your GitHub repository. The root must contain `index.html`, `netlify.toml`, `assets`, `downloads`, and the `fa`, `tr`, `es` directories. Netlify: Base directory blank; build command blank; publish directory `.`; production branch `main`.
 
-## Netlify deploy via GitHub
+Domain assumed: https://profile-morteza.netlify.app/
 
-1. Extract the ZIP file. Upload the **contents**, not the ZIP itself, into the ROOT of the `Sma912/Portfolio` repository on the `main` branch. `index.html` must be visible at the root; its folder neighbours include `fa`, `tr`, `es`, `writing`, `work`, `assets`, and `downloads`.
-2. Remove old preview/integration-helper files if present. They are not required for this version.
-3. In Netlify select the GitHub repo `Sma912/Portfolio`, production branch `main`. Set build command EMPTY; base directory EMPTY; publish directory `.`.
-4. Trigger production deployment, then test `/`, `/fa/`, `/tr/`, `/es/`, `/writing/` and `/work/refahston-seo/`.
+Two separate routes for each locale:
+- SEO and digital: `/seo-digital/`; professional resume `/resume/seo-digital/`.
+- Engineering & project management: `/engineering-management/`; professional resume `/resume/engineering/`.
 
-This site requires no Node/npm installation and no server-side route rewrites.
+`/resume/` allows choosing a profile. The `/work/` and `/writing/` pages remain accessible. No JavaScript is required to navigate or change language. All languages are authored static pages indexed with canonical and reciprocal hreflang; sitemap.xml + robots.txt are included.
 
-### Technical SEO included
-- Unique HTML title and meta description for every language/page
-- Semantic h1/h2 and crawlable text (no JS translation required)
-- Distinct language URLs and HTML `lang` / Persian `dir=rtl`
-- Canonical and reciprocal hreflang tags with x-default
-- Valid multilingual sitemap.xml and robots.txt
-- JSON-LD structured data and social meta tags
-- Internal links and readable paths, SVG favicon, responsive styles
-- Explicitly noindex custom 404 page
+**Important accuracy:** E-commerce business operations since 2019 do **not** imply dedicated SEO expert practice since 2019. SEO research, textbook project and writing examples date from 2026. No invented client, performance uplift or traffic claim is made.
 
-**Important:** URLs and canonical tags refer to `https://sparkling-marzipan-d8432e.netlify.app` — edit them before use on a different domain.
+Editable: all HTML/CSS. To update domain names, replace `https://profile-morteza.netlify.app` in HTML, sitemap.xml, robots.txt.
 
-### Content integrity
-- Since 2019 = e-commerce / business operations (Refahston), not years employed as a professional SEO specialist.
-- 2026 = dedicated independent SEO research, content samples, book manuscript in progress.
-- The Refahston SEO implementation checklist is a proposed roadmap, not claimed to have been completed or caused measurable search growth.
-- English article is fully preserved and available in translated educational summaries on other language pages; translations should receive native-speaker editorial review before professional use.
+The SEO content writer PDF in /downloads is tailored to content roles, not an engineering CV. The engineering profile is provided as an HTML résumé plus a linked engineering projects page to avoid labeling an unrelated PDF as an engineering résumé.
