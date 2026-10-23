@@ -1,18 +1,30 @@
-# Complete professional portfolio — ready for GitHub + Netlify
+# Complete four-language professional SEO / e-commerce portfolio
 
-This folder is a **complete static website**. The home page is `index.html` in the repository root. It does not require npm, Node.js, Python, or any build process.
+**This ZIP is a FULL static website, NOT an add-on.**
 
-## Deploy via GitHub
+## Netlify deploy via GitHub
 
-1. In your GitHub `Portfolio` repository, upload **the contents of this ZIP into the root** of the `main` branch. Do not upload the ZIP as one file. `index.html` must be visible at the top level. Replace files when prompted. Remove old helper files (`PREVIEW_Writing_Portfolio.html`, `EMBED_IN_EXISTING_INDEX.html`, `merge_into_original.py`) if they remain from the previous add-on package; they are not part of this full website.
-2. In Netlify: **Project configuration → Build & deploy / Continuous deployment** (label may vary). Choose `Sma912/Portfolio` and `main`. Leave **Base directory** and **Build command** empty. Set **Publish directory** to `.` (repository root).
-3. Trigger a new production deploy, then open the root site and `/writing/`.
-4. Review `sitemap.xml` and `robots.txt`.
+1. Extract the ZIP file. Upload the **contents**, not the ZIP itself, into the ROOT of the `Sma912/Portfolio` repository on the `main` branch. `index.html` must be visible at the root; its folder neighbours include `fa`, `tr`, `es`, `writing`, `work`, `assets`, and `downloads`.
+2. Remove old preview/integration-helper files if present. They are not required for this version.
+3. In Netlify select the GitHub repo `Sma912/Portfolio`, production branch `main`. Set build command EMPTY; base directory EMPTY; publish directory `.`.
+4. Trigger production deployment, then test `/`, `/fa/`, `/tr/`, `/es/`, `/writing/` and `/work/refahston-seo/`.
 
-### SEO note
+This site requires no Node/npm installation and no server-side route rewrites.
 
-Canonical and Open Graph URLs currently point to `https://sparkling-marzipan-d8432e.netlify.app` because this was the portfolio URL supplied. If you deploy to a **different Netlify domain** or connect your own domain, update absolute URLs in the HTML, `sitemap.xml`, and `robots.txt` before indexing it.
+### Technical SEO included
+- Unique HTML title and meta description for every language/page
+- Semantic h1/h2 and crawlable text (no JS translation required)
+- Distinct language URLs and HTML `lang` / Persian `dir=rtl`
+- Canonical and reciprocal hreflang tags with x-default
+- Valid multilingual sitemap.xml and robots.txt
+- JSON-LD structured data and social meta tags
+- Internal links and readable paths, SVG favicon, responsive styles
+- Explicitly noindex custom 404 page
 
-### Portfolio scope
+**Important:** URLs and canonical tags refer to `https://sparkling-marzipan-d8432e.netlify.app` — edit them before use on a different domain.
 
-The original website source was not available in the conversation. This is a newly built complete site using documented project names and existing writing samples; it is **not an exact visual or archival copy** of any older engineering gallery. Where no verified case study was available, project descriptions remain conservative.
+### Content integrity
+- Since 2019 = e-commerce / business operations (Refahston), not years employed as a professional SEO specialist.
+- 2026 = dedicated independent SEO research, content samples, book manuscript in progress.
+- The Refahston SEO implementation checklist is a proposed roadmap, not claimed to have been completed or caused measurable search growth.
+- English article is fully preserved and available in translated educational summaries on other language pages; translations should receive native-speaker editorial review before professional use.
