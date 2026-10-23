@@ -1,17 +1,14 @@
-# Complete multilingual dual-track portfolio | 23 October 2026
+# Morteza Ahmadi — Recruiter-First Portfolio, 2026
 
-**Deploy-ready static HTML.** Extract the ZIP and upload **all extracted files** to the root of your GitHub repository. The root must contain `index.html`, `netlify.toml`, `assets`, `downloads`, and the `fa`, `tr`, `es` directories. Netlify: Base directory blank; build command blank; publish directory `.`; production branch `main`.
+**Ready to deploy as a complete static Netlify website.** This is not an add-on.
 
-Domain assumed: https://profile-morteza.netlify.app/
+1. Unzip and upload the **contents** (not the ZIP file) to the root of your GitHub repository. Make sure `index.html` is at the repository root.
+2. In Netlify, select the GitHub repository, branch `main`, no build command, Publish directory `.`.
+3. Redeploy. The default homepage is English. Localized versions: `/fa/`, `/tr/`, `/es/`.
+4. Keep all `assets`, `downloads`, `work`, `resume`, and `writing` folders and the config files.
 
-Two separate routes for each locale:
-- SEO and digital: `/seo-digital/`; professional resume `/resume/seo-digital/`.
-- Engineering & project management: `/engineering-management/`; professional resume `/resume/engineering/`.
+**Architecture:** 14 routes × 4 languages = 56 static pages, including two separate professional hubs, separate resumés, detailed evidence-based case studies, English content samples and multi-language navigation.
 
-`/resume/` allows choosing a profile. The `/work/` and `/writing/` pages remain accessible. No JavaScript is required to navigate or change language. All languages are authored static pages indexed with canonical and reciprocal hreflang; sitemap.xml + robots.txt are included.
+**Editorial constraints:** No fabricated SEO uplift metrics. Refahston business experience dates from 2019; independent SEO research is explicitly described as 2026 activity. Short Digikala writing contributions are represented as brief content submissions, not employment. Small client names are intentionally omitted. Project collaboration is clearly labeled.
 
-**Important accuracy:** E-commerce business operations since 2019 do **not** imply dedicated SEO expert practice since 2019. SEO research, textbook project and writing examples date from 2026. No invented client, performance uplift or traffic claim is made.
-
-Editable: all HTML/CSS. To update domain names, replace `https://profile-morteza.netlify.app` in HTML, sitemap.xml, robots.txt.
-
-The SEO content writer PDF in /downloads is tailored to content roles, not an engineering CV. The engineering profile is provided as an HTML résumé plus a linked engineering projects page to avoid labeling an unrelated PDF as an engineering résumé.
+**SEO:** Per-page metadata, canonical URLs for profile-morteza.netlify.app, localized hreflang, XML sitemap, robots.txt, Article/WebPage structured data, semantic HTML and accessible navigation.
