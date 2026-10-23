@@ -12,3 +12,7 @@
 **Editorial constraints:** No fabricated SEO uplift metrics. Refahston business experience dates from 2019; independent SEO research is explicitly described as 2026 activity. Short Digikala writing contributions are represented as brief content submissions, not employment. Small client names are intentionally omitted. Project collaboration is clearly labeled.
 
 **SEO:** Per-page metadata, canonical URLs for profile-morteza.netlify.app, localized hreflang, XML sitemap, robots.txt, Article/WebPage structured data, semantic HTML and accessible navigation.
+
+
+## Engineering CV depth update (23 October 2026)
+The engineering path and CV have been restored to show 16+ years of design / production / EPC experience, tendering and costing, delivery responsibilities, 12 documented treatment assignments and four additional named infrastructure projects. The PDF is an expanded evidence-based engineering CV. Partner firm contributions remain identified.
