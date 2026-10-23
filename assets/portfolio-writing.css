@@ -75,3 +75,6 @@ html{scroll-behavior:smooth}
 .maw-navlink{margin-left:10px!important}
 @media(max-width:730px){.mw-grid,.maw-grid{grid-template-columns:1fr}.mw-note{grid-template-columns:1fr}.mw-nav{gap:12px}.mw-top .mw-wrap{flex-wrap:wrap}.mw-hero{padding-top:60px}.mw-card{min-height:unset}.mw-article{padding-top:45px}.mw-article-body h2{font-size:27px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Shared editorial accessibility refinements */
+.mw-page a:focus-visible{outline:3px solid #e1b54e;outline-offset:3px}.mw-article-body p,.mw-article-body li{overflow-wrap:break-word}.mw-page img{max-width:100%;height:auto}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sparkling-marzipan-d8432e.netlify.app/sitemap.xml
